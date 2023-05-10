@@ -128,3 +128,19 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .pdm-python
+
+# model folders, data folders, and weights
+data/
+data/*
+GroundingDINO/
+gpt3-sandbox
+*.pth
+pdm.lock
+miniproject/*.gif
+miniproject/*.png
+miniproject/*/*.png
+
+.DS_Store
+._.DS_Store
+
+*.code-workspace

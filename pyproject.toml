@@ -25,6 +25,18 @@ dependencies = [
     "matplotlib>=3.7.1",
     "openai>=0.27.4",
     "setuptools>=67.6.1",
+    "notebook>=6.5.4",
+    "ipykernel>=6.22.0",
+    "jupyter>=1.0.0",
+    "opencv-python>=4.7.0.72",
+    "roboflow>=1.0.5",
+    "supervision>=0.6.0",
+    "transformers>=4.28.1",
+    "pip>=23.1.1",
 ]
 requires-python = ">=3.11"
 license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend", "torch"]
+build-backend = "pdm.backend"
